@@ -9,6 +9,7 @@
     "test": "ng test"
   },
   "private": true,
+  "type": "module",
   "dependencies": {
     "@angular/animations": "^16.1.0",
     "@angular/common": "^16.1.0",
@@ -23,7 +24,7 @@
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "file:../../jest-transform.tgz",
+    "@angular-devkit/build-angular": "file:../../jest-tsc.tgz",
     "@angular/cli": "~16.1.4",
     "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
